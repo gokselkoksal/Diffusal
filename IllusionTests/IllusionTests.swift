@@ -11,26 +11,32 @@ import XCTest
 
 class IllusionTests: XCTestCase {
     
-    override func setUp() {
-        super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    func testSimpleDiff() throws {
+        let dob1 = Date()
+        let dob2 = dob1.addingTimeInterval(5)
+        let url = URL(string: "https://www.google.com")!
+        
+        let user1 = User(
+            username: "gokselkk",
+            firstName: "Goksel",
+            lastName: "Koksal",
+            dateOfBirth: dob1,
+            website: url
+        )
+        
+        let user2 = User(
+            username: "baketheegg",
+            firstName: "Sila",
+            lastName: "Koksal",
+            dateOfBirth: dob2,
+            website: url
+        )
+        
+        let diff = try User.diff(user1, user2)
+        
+        XCTAssertEqual(diff.changes.count, 3)
+        XCTAssertNotNil(diff.change(for: \User.username))
+        XCTAssertNotNil(diff.change(for: \User.firstName))
+        XCTAssertNotNil(diff.change(for: \User.dateOfBirth))
     }
-    
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
-    }
-    
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
-    
 }

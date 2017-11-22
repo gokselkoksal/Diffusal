@@ -10,6 +10,13 @@
 		623156AF1FC63E45000A5088 /* Illusion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 623156A51FC63E45000A5088 /* Illusion.framework */; };
 		623156B41FC63E45000A5088 /* IllusionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623156B31FC63E45000A5088 /* IllusionTests.swift */; };
 		623156B61FC63E45000A5088 /* Illusion.h in Headers */ = {isa = PBXBuildFile; fileRef = 623156A81FC63E45000A5088 /* Illusion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		623156C51FC63E5D000A5088 /* CompositeComparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623156BF1FC63E5C000A5088 /* CompositeComparator.swift */; };
+		623156C61FC63E5D000A5088 /* Comparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623156C01FC63E5C000A5088 /* Comparator.swift */; };
+		623156C71FC63E5D000A5088 /* Diffable+Default.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623156C11FC63E5C000A5088 /* Diffable+Default.swift */; };
+		623156C81FC63E5D000A5088 /* EquatableComparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623156C21FC63E5C000A5088 /* EquatableComparator.swift */; };
+		623156C91FC63E5D000A5088 /* Diffable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623156C31FC63E5C000A5088 /* Diffable.swift */; };
+		623156CA1FC63E5D000A5088 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623156C41FC63E5D000A5088 /* Errors.swift */; };
+		623156CC1FC63E84000A5088 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623156CB1FC63E84000A5088 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +36,13 @@
 		623156AE1FC63E45000A5088 /* IllusionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IllusionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		623156B31FC63E45000A5088 /* IllusionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IllusionTests.swift; sourceTree = "<group>"; };
 		623156B51FC63E45000A5088 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		623156BF1FC63E5C000A5088 /* CompositeComparator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompositeComparator.swift; sourceTree = "<group>"; };
+		623156C01FC63E5C000A5088 /* Comparator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comparator.swift; sourceTree = "<group>"; };
+		623156C11FC63E5C000A5088 /* Diffable+Default.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Diffable+Default.swift"; sourceTree = "<group>"; };
+		623156C21FC63E5C000A5088 /* EquatableComparator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EquatableComparator.swift; sourceTree = "<group>"; };
+		623156C31FC63E5C000A5088 /* Diffable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Diffable.swift; sourceTree = "<group>"; };
+		623156C41FC63E5D000A5088 /* Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		623156CB1FC63E84000A5088 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +87,12 @@
 			children = (
 				623156A81FC63E45000A5088 /* Illusion.h */,
 				623156A91FC63E45000A5088 /* Info.plist */,
+				623156C01FC63E5C000A5088 /* Comparator.swift */,
+				623156BF1FC63E5C000A5088 /* CompositeComparator.swift */,
+				623156C31FC63E5C000A5088 /* Diffable.swift */,
+				623156C11FC63E5C000A5088 /* Diffable+Default.swift */,
+				623156C21FC63E5C000A5088 /* EquatableComparator.swift */,
+				623156C41FC63E5D000A5088 /* Errors.swift */,
 			);
 			path = Illusion;
 			sourceTree = "<group>";
@@ -80,6 +100,7 @@
 		623156B21FC63E45000A5088 /* IllusionTests */ = {
 			isa = PBXGroup;
 			children = (
+				623156CB1FC63E84000A5088 /* User.swift */,
 				623156B31FC63E45000A5088 /* IllusionTests.swift */,
 				623156B51FC63E45000A5088 /* Info.plist */,
 			);
@@ -148,6 +169,7 @@
 				TargetAttributes = {
 					623156A41FC63E45000A5088 = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 					623156AD1FC63E45000A5088 = {
@@ -196,6 +218,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				623156C91FC63E5D000A5088 /* Diffable.swift in Sources */,
+				623156C81FC63E5D000A5088 /* EquatableComparator.swift in Sources */,
+				623156C51FC63E5D000A5088 /* CompositeComparator.swift in Sources */,
+				623156C61FC63E5D000A5088 /* Comparator.swift in Sources */,
+				623156CA1FC63E5D000A5088 /* Errors.swift in Sources */,
+				623156C71FC63E5D000A5088 /* Diffable+Default.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +231,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				623156CC1FC63E84000A5088 /* User.swift in Sources */,
 				623156B41FC63E45000A5088 /* IllusionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,6 +363,7 @@
 		623156BA1FC63E45000A5088 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -346,6 +376,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = me.gk.Illusion;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -354,6 +385,7 @@
 		623156BB1FC63E45000A5088 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -374,6 +406,7 @@
 		623156BD1FC63E45000A5088 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = IllusionTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -387,6 +420,7 @@
 		623156BE1FC63E45000A5088 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = IllusionTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
