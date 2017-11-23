@@ -1,6 +1,6 @@
 //
 //  EquatableComparator.swift
-//  Illusion
+//  Diffusal
 //
 //  Created by Göksel Köksal on 22.11.2017.
 //  Copyright © 2017 Goksel Koksal. All rights reserved.

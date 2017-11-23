@@ -7,204 +7,204 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		623156AF1FC63E45000A5088 /* Illusion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 623156A51FC63E45000A5088 /* Illusion.framework */; };
-		623156B41FC63E45000A5088 /* IllusionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623156B31FC63E45000A5088 /* IllusionTests.swift */; };
-		623156B61FC63E45000A5088 /* Illusion.h in Headers */ = {isa = PBXBuildFile; fileRef = 623156A81FC63E45000A5088 /* Illusion.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		623156C51FC63E5D000A5088 /* CompositeComparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623156BF1FC63E5C000A5088 /* CompositeComparator.swift */; };
-		623156C61FC63E5D000A5088 /* Comparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623156C01FC63E5C000A5088 /* Comparator.swift */; };
-		623156C71FC63E5D000A5088 /* Diffable+Default.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623156C11FC63E5C000A5088 /* Diffable+Default.swift */; };
-		623156C81FC63E5D000A5088 /* EquatableComparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623156C21FC63E5C000A5088 /* EquatableComparator.swift */; };
-		623156C91FC63E5D000A5088 /* Diffable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623156C31FC63E5C000A5088 /* Diffable.swift */; };
-		623156CA1FC63E5D000A5088 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623156C41FC63E5D000A5088 /* Errors.swift */; };
-		623156CC1FC63E84000A5088 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623156CB1FC63E84000A5088 /* User.swift */; };
+		627AD45E1FC777D700E4A97C /* Diffusal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627AD4541FC777D700E4A97C /* Diffusal.framework */; };
+		627AD4631FC777D700E4A97C /* DiffusalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627AD4621FC777D700E4A97C /* DiffusalTests.swift */; };
+		627AD4651FC777D700E4A97C /* Diffusal.h in Headers */ = {isa = PBXBuildFile; fileRef = 627AD4571FC777D700E4A97C /* Diffusal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		627AD4741FC7785100E4A97C /* Diffable+Default.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627AD46E1FC7785100E4A97C /* Diffable+Default.swift */; };
+		627AD4751FC7785100E4A97C /* Diffable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627AD46F1FC7785100E4A97C /* Diffable.swift */; };
+		627AD4761FC7785100E4A97C /* Comparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627AD4701FC7785100E4A97C /* Comparator.swift */; };
+		627AD4771FC7785100E4A97C /* EquatableComparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627AD4711FC7785100E4A97C /* EquatableComparator.swift */; };
+		627AD4781FC7785100E4A97C /* CompositeComparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627AD4721FC7785100E4A97C /* CompositeComparator.swift */; };
+		627AD4791FC7785100E4A97C /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627AD4731FC7785100E4A97C /* Errors.swift */; };
+		627AD47B1FC7786E00E4A97C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627AD47A1FC7786E00E4A97C /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		623156B01FC63E45000A5088 /* PBXContainerItemProxy */ = {
+		627AD45F1FC777D700E4A97C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6231569C1FC63E45000A5088 /* Project object */;
+			containerPortal = 627AD44B1FC777D700E4A97C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 623156A41FC63E45000A5088;
-			remoteInfo = Illusion;
+			remoteGlobalIDString = 627AD4531FC777D700E4A97C;
+			remoteInfo = Diffusal;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		623156A51FC63E45000A5088 /* Illusion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Illusion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		623156A81FC63E45000A5088 /* Illusion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Illusion.h; sourceTree = "<group>"; };
-		623156A91FC63E45000A5088 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		623156AE1FC63E45000A5088 /* IllusionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IllusionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		623156B31FC63E45000A5088 /* IllusionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IllusionTests.swift; sourceTree = "<group>"; };
-		623156B51FC63E45000A5088 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		623156BF1FC63E5C000A5088 /* CompositeComparator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompositeComparator.swift; sourceTree = "<group>"; };
-		623156C01FC63E5C000A5088 /* Comparator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comparator.swift; sourceTree = "<group>"; };
-		623156C11FC63E5C000A5088 /* Diffable+Default.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Diffable+Default.swift"; sourceTree = "<group>"; };
-		623156C21FC63E5C000A5088 /* EquatableComparator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EquatableComparator.swift; sourceTree = "<group>"; };
-		623156C31FC63E5C000A5088 /* Diffable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Diffable.swift; sourceTree = "<group>"; };
-		623156C41FC63E5D000A5088 /* Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
-		623156CB1FC63E84000A5088 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		627AD4541FC777D700E4A97C /* Diffusal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Diffusal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		627AD4571FC777D700E4A97C /* Diffusal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Diffusal.h; sourceTree = "<group>"; };
+		627AD4581FC777D700E4A97C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		627AD45D1FC777D700E4A97C /* DiffusalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiffusalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		627AD4621FC777D700E4A97C /* DiffusalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffusalTests.swift; sourceTree = "<group>"; };
+		627AD4641FC777D700E4A97C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		627AD46E1FC7785100E4A97C /* Diffable+Default.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Diffable+Default.swift"; sourceTree = "<group>"; };
+		627AD46F1FC7785100E4A97C /* Diffable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Diffable.swift; sourceTree = "<group>"; };
+		627AD4701FC7785100E4A97C /* Comparator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comparator.swift; sourceTree = "<group>"; };
+		627AD4711FC7785100E4A97C /* EquatableComparator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EquatableComparator.swift; sourceTree = "<group>"; };
+		627AD4721FC7785100E4A97C /* CompositeComparator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompositeComparator.swift; sourceTree = "<group>"; };
+		627AD4731FC7785100E4A97C /* Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		627AD47A1FC7786E00E4A97C /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		623156A11FC63E45000A5088 /* Frameworks */ = {
+		627AD4501FC777D700E4A97C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		623156AB1FC63E45000A5088 /* Frameworks */ = {
+		627AD45A1FC777D700E4A97C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				623156AF1FC63E45000A5088 /* Illusion.framework in Frameworks */,
+				627AD45E1FC777D700E4A97C /* Diffusal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6231569B1FC63E45000A5088 = {
+		627AD44A1FC777D700E4A97C = {
 			isa = PBXGroup;
 			children = (
-				623156A71FC63E45000A5088 /* Illusion */,
-				623156B21FC63E45000A5088 /* IllusionTests */,
-				623156A61FC63E45000A5088 /* Products */,
+				627AD4561FC777D700E4A97C /* Diffusal */,
+				627AD4611FC777D700E4A97C /* DiffusalTests */,
+				627AD4551FC777D700E4A97C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		623156A61FC63E45000A5088 /* Products */ = {
+		627AD4551FC777D700E4A97C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				623156A51FC63E45000A5088 /* Illusion.framework */,
-				623156AE1FC63E45000A5088 /* IllusionTests.xctest */,
+				627AD4541FC777D700E4A97C /* Diffusal.framework */,
+				627AD45D1FC777D700E4A97C /* DiffusalTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		623156A71FC63E45000A5088 /* Illusion */ = {
+		627AD4561FC777D700E4A97C /* Diffusal */ = {
 			isa = PBXGroup;
 			children = (
-				623156A81FC63E45000A5088 /* Illusion.h */,
-				623156A91FC63E45000A5088 /* Info.plist */,
-				623156C01FC63E5C000A5088 /* Comparator.swift */,
-				623156BF1FC63E5C000A5088 /* CompositeComparator.swift */,
-				623156C31FC63E5C000A5088 /* Diffable.swift */,
-				623156C11FC63E5C000A5088 /* Diffable+Default.swift */,
-				623156C21FC63E5C000A5088 /* EquatableComparator.swift */,
-				623156C41FC63E5D000A5088 /* Errors.swift */,
+				627AD4571FC777D700E4A97C /* Diffusal.h */,
+				627AD4581FC777D700E4A97C /* Info.plist */,
+				627AD4701FC7785100E4A97C /* Comparator.swift */,
+				627AD4721FC7785100E4A97C /* CompositeComparator.swift */,
+				627AD46F1FC7785100E4A97C /* Diffable.swift */,
+				627AD46E1FC7785100E4A97C /* Diffable+Default.swift */,
+				627AD4711FC7785100E4A97C /* EquatableComparator.swift */,
+				627AD4731FC7785100E4A97C /* Errors.swift */,
 			);
-			path = Illusion;
+			path = Diffusal;
 			sourceTree = "<group>";
 		};
-		623156B21FC63E45000A5088 /* IllusionTests */ = {
+		627AD4611FC777D700E4A97C /* DiffusalTests */ = {
 			isa = PBXGroup;
 			children = (
-				623156CB1FC63E84000A5088 /* User.swift */,
-				623156B31FC63E45000A5088 /* IllusionTests.swift */,
-				623156B51FC63E45000A5088 /* Info.plist */,
+				627AD47A1FC7786E00E4A97C /* User.swift */,
+				627AD4621FC777D700E4A97C /* DiffusalTests.swift */,
+				627AD4641FC777D700E4A97C /* Info.plist */,
 			);
-			path = IllusionTests;
+			path = DiffusalTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		623156A21FC63E45000A5088 /* Headers */ = {
+		627AD4511FC777D700E4A97C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				623156B61FC63E45000A5088 /* Illusion.h in Headers */,
+				627AD4651FC777D700E4A97C /* Diffusal.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		623156A41FC63E45000A5088 /* Illusion */ = {
+		627AD4531FC777D700E4A97C /* Diffusal */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 623156B91FC63E45000A5088 /* Build configuration list for PBXNativeTarget "Illusion" */;
+			buildConfigurationList = 627AD4681FC777D700E4A97C /* Build configuration list for PBXNativeTarget "Diffusal" */;
 			buildPhases = (
-				623156A01FC63E45000A5088 /* Sources */,
-				623156A11FC63E45000A5088 /* Frameworks */,
-				623156A21FC63E45000A5088 /* Headers */,
-				623156A31FC63E45000A5088 /* Resources */,
+				627AD44F1FC777D700E4A97C /* Sources */,
+				627AD4501FC777D700E4A97C /* Frameworks */,
+				627AD4511FC777D700E4A97C /* Headers */,
+				627AD4521FC777D700E4A97C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Illusion;
-			productName = Illusion;
-			productReference = 623156A51FC63E45000A5088 /* Illusion.framework */;
+			name = Diffusal;
+			productName = Diffusal;
+			productReference = 627AD4541FC777D700E4A97C /* Diffusal.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		623156AD1FC63E45000A5088 /* IllusionTests */ = {
+		627AD45C1FC777D700E4A97C /* DiffusalTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 623156BC1FC63E45000A5088 /* Build configuration list for PBXNativeTarget "IllusionTests" */;
+			buildConfigurationList = 627AD46B1FC777D700E4A97C /* Build configuration list for PBXNativeTarget "DiffusalTests" */;
 			buildPhases = (
-				623156AA1FC63E45000A5088 /* Sources */,
-				623156AB1FC63E45000A5088 /* Frameworks */,
-				623156AC1FC63E45000A5088 /* Resources */,
+				627AD4591FC777D700E4A97C /* Sources */,
+				627AD45A1FC777D700E4A97C /* Frameworks */,
+				627AD45B1FC777D700E4A97C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				623156B11FC63E45000A5088 /* PBXTargetDependency */,
+				627AD4601FC777D700E4A97C /* PBXTargetDependency */,
 			);
-			name = IllusionTests;
-			productName = IllusionTests;
-			productReference = 623156AE1FC63E45000A5088 /* IllusionTests.xctest */;
+			name = DiffusalTests;
+			productName = DiffusalTests;
+			productReference = 627AD45D1FC777D700E4A97C /* DiffusalTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6231569C1FC63E45000A5088 /* Project object */ = {
+		627AD44B1FC777D700E4A97C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0910;
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = "Goksel Koksal";
 				TargetAttributes = {
-					623156A41FC63E45000A5088 = {
+					627AD4531FC777D700E4A97C = {
 						CreatedOnToolsVersion = 9.1;
 						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
-					623156AD1FC63E45000A5088 = {
+					627AD45C1FC777D700E4A97C = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 6231569F1FC63E45000A5088 /* Build configuration list for PBXProject "Illusion" */;
+			buildConfigurationList = 627AD44E1FC777D700E4A97C /* Build configuration list for PBXProject "Diffusal" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 6231569B1FC63E45000A5088;
-			productRefGroup = 623156A61FC63E45000A5088 /* Products */;
+			mainGroup = 627AD44A1FC777D700E4A97C;
+			productRefGroup = 627AD4551FC777D700E4A97C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				623156A41FC63E45000A5088 /* Illusion */,
-				623156AD1FC63E45000A5088 /* IllusionTests */,
+				627AD4531FC777D700E4A97C /* Diffusal */,
+				627AD45C1FC777D700E4A97C /* DiffusalTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		623156A31FC63E45000A5088 /* Resources */ = {
+		627AD4521FC777D700E4A97C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		623156AC1FC63E45000A5088 /* Resources */ = {
+		627AD45B1FC777D700E4A97C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -214,40 +214,40 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		623156A01FC63E45000A5088 /* Sources */ = {
+		627AD44F1FC777D700E4A97C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				623156C91FC63E5D000A5088 /* Diffable.swift in Sources */,
-				623156C81FC63E5D000A5088 /* EquatableComparator.swift in Sources */,
-				623156C51FC63E5D000A5088 /* CompositeComparator.swift in Sources */,
-				623156C61FC63E5D000A5088 /* Comparator.swift in Sources */,
-				623156CA1FC63E5D000A5088 /* Errors.swift in Sources */,
-				623156C71FC63E5D000A5088 /* Diffable+Default.swift in Sources */,
+				627AD4781FC7785100E4A97C /* CompositeComparator.swift in Sources */,
+				627AD4771FC7785100E4A97C /* EquatableComparator.swift in Sources */,
+				627AD4751FC7785100E4A97C /* Diffable.swift in Sources */,
+				627AD4741FC7785100E4A97C /* Diffable+Default.swift in Sources */,
+				627AD4791FC7785100E4A97C /* Errors.swift in Sources */,
+				627AD4761FC7785100E4A97C /* Comparator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		623156AA1FC63E45000A5088 /* Sources */ = {
+		627AD4591FC777D700E4A97C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				623156CC1FC63E84000A5088 /* User.swift in Sources */,
-				623156B41FC63E45000A5088 /* IllusionTests.swift in Sources */,
+				627AD47B1FC7786E00E4A97C /* User.swift in Sources */,
+				627AD4631FC777D700E4A97C /* DiffusalTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		623156B11FC63E45000A5088 /* PBXTargetDependency */ = {
+		627AD4601FC777D700E4A97C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 623156A41FC63E45000A5088 /* Illusion */;
-			targetProxy = 623156B01FC63E45000A5088 /* PBXContainerItemProxy */;
+			target = 627AD4531FC777D700E4A97C /* Diffusal */;
+			targetProxy = 627AD45F1FC777D700E4A97C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		623156B71FC63E45000A5088 /* Debug */ = {
+		627AD4661FC777D700E4A97C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -307,7 +307,7 @@
 			};
 			name = Debug;
 		};
-		623156B81FC63E45000A5088 /* Release */ = {
+		627AD4671FC777D700E4A97C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -360,7 +360,7 @@
 			};
 			name = Release;
 		};
-		623156BA1FC63E45000A5088 /* Debug */ = {
+		627AD4691FC777D700E4A97C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -370,10 +370,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Illusion/Info.plist;
+				INFOPLIST_FILE = Diffusal/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.gk.Illusion;
+				PRODUCT_BUNDLE_IDENTIFIER = me.gk.Diffusal;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -382,7 +382,7 @@
 			};
 			name = Debug;
 		};
-		623156BB1FC63E45000A5088 /* Release */ = {
+		627AD46A1FC777D700E4A97C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -392,10 +392,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Illusion/Info.plist;
+				INFOPLIST_FILE = Diffusal/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.gk.Illusion;
+				PRODUCT_BUNDLE_IDENTIFIER = me.gk.Diffusal;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -403,28 +403,28 @@
 			};
 			name = Release;
 		};
-		623156BD1FC63E45000A5088 /* Debug */ = {
+		627AD46C1FC777D700E4A97C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = IllusionTests/Info.plist;
+				INFOPLIST_FILE = DiffusalTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.gk.IllusionTests;
+				PRODUCT_BUNDLE_IDENTIFIER = me.gk.DiffusalTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		623156BE1FC63E45000A5088 /* Release */ = {
+		627AD46D1FC777D700E4A97C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = IllusionTests/Info.plist;
+				INFOPLIST_FILE = DiffusalTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.gk.IllusionTests;
+				PRODUCT_BUNDLE_IDENTIFIER = me.gk.DiffusalTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -434,34 +434,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6231569F1FC63E45000A5088 /* Build configuration list for PBXProject "Illusion" */ = {
+		627AD44E1FC777D700E4A97C /* Build configuration list for PBXProject "Diffusal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				623156B71FC63E45000A5088 /* Debug */,
-				623156B81FC63E45000A5088 /* Release */,
+				627AD4661FC777D700E4A97C /* Debug */,
+				627AD4671FC777D700E4A97C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		623156B91FC63E45000A5088 /* Build configuration list for PBXNativeTarget "Illusion" */ = {
+		627AD4681FC777D700E4A97C /* Build configuration list for PBXNativeTarget "Diffusal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				623156BA1FC63E45000A5088 /* Debug */,
-				623156BB1FC63E45000A5088 /* Release */,
+				627AD4691FC777D700E4A97C /* Debug */,
+				627AD46A1FC777D700E4A97C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		623156BC1FC63E45000A5088 /* Build configuration list for PBXNativeTarget "IllusionTests" */ = {
+		627AD46B1FC777D700E4A97C /* Build configuration list for PBXNativeTarget "DiffusalTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				623156BD1FC63E45000A5088 /* Debug */,
-				623156BE1FC63E45000A5088 /* Release */,
+				627AD46C1FC777D700E4A97C /* Debug */,
+				627AD46D1FC777D700E4A97C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6231569C1FC63E45000A5088 /* Project object */;
+	rootObject = 627AD44B1FC777D700E4A97C /* Project object */;
 }

@@ -1,15 +1,15 @@
 //
-//  IllusionTests.swift
-//  IllusionTests
+//  DiffusalTests.swift
+//  DiffusalTests
 //
-//  Created by Göksel Köksal on 22.11.2017.
+//  Created by Göksel Köksal on 23.11.2017.
 //  Copyright © 2017 Goksel Koksal. All rights reserved.
 //
 
 import XCTest
-@testable import Illusion
+@testable import Diffusal
 
-class IllusionTests: XCTestCase {
+class DiffusalTests: XCTestCase {
     
     func testSimpleDiff() throws {
         let dob1 = Date()

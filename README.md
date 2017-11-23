@@ -1,6 +1,6 @@
-# Illusion
+# Diffusal
 
-Illusion lets you get diff between two objects with ease.
+Diffusal lets you get diff between two objects with ease.
 
 ## Sample Use
 

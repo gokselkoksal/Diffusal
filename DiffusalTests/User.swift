@@ -1,13 +1,13 @@
 //
 //  User.swift
-//  IllusionTests
+//  DiffusalTests
 //
 //  Created by Göksel Köksal on 22.11.2017.
 //  Copyright © 2017 Goksel Koksal. All rights reserved.
 //
 
 import Foundation
-@testable import Illusion
+@testable import Diffusal
 
 struct User {
     let username: String
