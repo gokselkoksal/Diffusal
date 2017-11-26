@@ -11,6 +11,55 @@ import XCTest
 
 class DiffusalTests: XCTestCase {
     
+    func testCollections() throws {
+        
+        struct Data: Diffable {
+            var array: [String]
+            var dictionary: [Int: String]
+            
+            static let allKeyPaths: Set<PartialKeyPath<Data>> = [\Data.array, \Data.dictionary]
+        }
+        
+        let data1 = Data(array: ["Goksel", "Sila"], dictionary: [0: "Goksel", 1: "Sila"])
+        var data2 = data1
+        data2.array.append("New")
+        var data3 = data1
+        data3.dictionary[2] = "New"
+        
+        let diff1 = try Data.diff(data1, data2)
+        XCTAssertNotNil(diff1.change(for: \Data.array))
+        XCTAssertNil(diff1.change(for: \Data.dictionary))
+        
+        let diff2 = try Data.diff(data1, data3)
+        XCTAssertNil(diff2.change(for: \Data.array))
+        XCTAssertNotNil(diff2.change(for: \Data.dictionary))
+    }
+    
+    func testProxy() throws {
+        struct Customer: Diffable {
+            static var allKeyPaths: Set<PartialKeyPath<Customer>> = [\Customer.orders]
+            var orders: ArrayProxy<String> = ArrayProxy([])
+        }
+        
+        var customer = Customer()
+        customer.orders.execute(
+            [.append("Order1"), .append("Order2")]
+        )
+        let c1 = customer
+        customer.orders.execute(
+            .insert([.init(index: 0, element: "OrderX1"), .init(index: 1, element: "OrderX2")])
+        )
+        let c2 = customer
+        
+        let diff = try Customer.diff(c1, c2)
+        let change = diff.change(for: \Customer.orders)
+        
+        if let requests = change?.info as? [CollectionRequest<String>] {
+            XCTAssertEqual(requests.count, 1)
+            XCTAssertTrue(requests[0].isInsert(at: IndexSet([0, 1])))
+        }
+    }
+    
     func testSimpleDiff() throws {
         let dob1 = Date()
         let dob2 = dob1.addingTimeInterval(5)

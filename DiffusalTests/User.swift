@@ -9,6 +9,8 @@
 import Foundation
 @testable import Diffusal
 
+typealias OrderId = String
+
 struct User {
     let username: String
     let firstName: String
